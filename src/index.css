@@ -1,0 +1,87 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 50px
+}
+
+.form1 {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.actionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputRow {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  max-width: 150px;
+}
+
+button {
+  padding: 5px 10px 5px 10px;
+  max-width: 100px;
+  text-align: center;
+  background-color: greenyellow;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+.countSquare {
+  border: 1px;
+  background-color: antiquewhite;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.squaresContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.blockWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid #000;
+  padding: 10px 10px 10px 10px;
+  width: 500px;
+}
+
+.thirdWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 500px;
+}
+
+.simpleDiv {
+  height: 50px;
+  width: 50px;
+  background-color:coral;
+}
+
+.parent {
+  position: relative;
+}
+
+.child {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
